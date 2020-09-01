@@ -36,6 +36,20 @@ $ cd RestaurantJS
 Copy the absolute path of the index file, paste on your browser and click on enter
 ```
 
+## for webpack run:
+
+```bash
+$ npm run build
+
+$ npm run start
+```
+
+## Usage
+
+- open index.html in dist folder
+- click on menu to see list of food in the menu
+- click on contact to see the contact information
+
 ## Authors
 
 👤 **Rida Elbahtouri**
