@@ -14,7 +14,7 @@ page.id = 'page';
 
 page.appendChild(home());
 root.appendChild(page);
-/* eslint consistent-return: ["error", { "treatUndefinedAsUnspecified": true }] */
+/* eslint consistent-return: 0 */
 const roting = (link) => {
   if (link === 'contact') {
     page.className = 'page';
