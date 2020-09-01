@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar style */
+.navbar {
+  background-color: burlywood;
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.logo {
+  position: absolute;
+  left: 4px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.nav_links {
+  list-style: none;
+  right: 4px;
+  top: 10px;
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  margin-top: auto;
+}
+.nav_links li {
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+/* end of navbar style */
+
+.page {
+  padding: 0 5%;
+  background: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"),
+    no-repeat, center;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+.menupage {
+  padding: 0 5%;
+}
+/* menu style */
+
+.foodlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.foodlist_title {
+  grid-column: 1/3;
+}
+.foodimg {
+  width: 100%;
+}
+/* end of menu style */
+
+/* home style */
+.title,
+.conatctinfo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 34px;
+  color: rgb(17, 15, 15);
+}
+/* end of home style */
+.conatctinfo {
+  color: rgb(29, 28, 25);
+  font-size: 30px;
+}
