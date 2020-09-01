@@ -4,7 +4,7 @@ This project is a small restaurant app created using javascript,when you can cli
 
 ## Live Demo
 
-[Link here](https://stoic-shannon-858e28.netlify.app/dist/)
+[Link here](https://stoic-shannon-858e28.netlify.app/)
 
 ## ScreenShoot
 
